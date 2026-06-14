@@ -43,5 +43,3 @@ Natural-language reminder application backed by a custom native Android alarm in
 ## Contact
 
 [Portfolio](https://ahamsel.com) | [LinkedIn](https://www.linkedin.com/in/aaesselmouni) | [Email](mailto:aaesselmouni@mun.ca)
-
-Available for software engineering and applied AI opportunities beginning September 2026.
