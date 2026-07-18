@@ -4,15 +4,21 @@ Software developer building deployed AI, mobile, and cloud products. I have one 
 
 ## Selected work
 
+### [Canrag - Multilingual Multimodal Document Intelligence](https://canrag.ahamsel.com)
+
+Built and deployed a public English/French document-intelligence product that preserves text, tables, charts, scans, and source geometry across PDFs and Office files. It combines hybrid pgvector retrieval, Gemini multimodal embeddings, validated claim-level citations, and an in-app evidence viewer on AWS; 473 automated checks cover ingestion, retrieval, citations, language behaviour, and abstention.
+
+`Python` `TypeScript` `FastAPI` `PostgreSQL` `pgvector` `Gemini` `Docling` `AWS` `Terraform`
+
 ### [Atlas - Court of Accounts RAG](https://cdc-chat.ahamsel.com)
 
-Built and operate a multilingual retrieval-augmented generation system over public reports from Morocco's Court of Accounts. Its production corpus contains 45,511 chunks, with retrieval evaluation, source citations, user feedback, rate limiting, and Sentry monitoring.
+Built and operate a multilingual retrieval-augmented generation system over 228 public reports from Morocco's Court of Accounts. Its production corpus contains 51,584 chunks, with retrieval evaluation, source citations, user feedback, rate limiting, and Sentry monitoring.
 
 `Python` `FastAPI` `PostgreSQL` `pgvector` `BGE embeddings` `Docker` `Sentry`
 
 ### [WebPilot](https://github.com/ahamSel/WebPilot)
 
-Open-source, local-first agentic browser that connects LLMs to browser automation through Playwright MCP. It supports local models through Ollama, cloud model providers, persistent sessions, and packaged macOS releases.
+Open-source, local-first agentic browser that connects LLMs to browser automation through Playwright MCP. It supports local models through Ollama, cloud model providers, persistent sessions, and packaged releases for macOS, Windows, and Linux.
 
 `TypeScript` `Electron` `Next.js` `Playwright` `MCP` `Ollama`
 
@@ -36,8 +42,8 @@ Natural-language reminder application backed by a custom native Android alarm in
 
 - **Languages:** Python, TypeScript, JavaScript, Kotlin, Dart, C#, Java, SQL
 - **Application development:** FastAPI, React, Next.js, Electron, Flutter, Android
-- **Data and AI:** PostgreSQL, pgvector, Firebase, Redis, RAG, embeddings, retrieval evaluation
-- **Cloud and delivery:** AWS, Docker, Vercel, Render, GitHub Actions, Sentry
+- **Data and AI:** PostgreSQL, pgvector, Firebase, Redis, multimodal RAG, hybrid retrieval, retrieval evaluation
+- **Cloud and delivery:** AWS, Terraform, Docker, Vercel, Render, GitHub Actions, Sentry
 - **Agentic development:** Playwright, MCP, Codex, Claude Code
 
 ## Contact
