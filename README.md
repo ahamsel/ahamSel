@@ -1,51 +1,31 @@
-# Ahmed Amine Es-Selmouni
-
-Software developer building deployed AI, mobile, and cloud products. I have one year of production software development experience at WSP and am completing a B.Sc. in Computer Science with a concentration in Artificial Intelligence at Memorial University of Newfoundland, graduating in September 2026.
+I build full-stack products with applied AI, and ship them. Software developer in St. John's, NL.
 
 ## Selected work
 
-### [Canrag - Multilingual Multimodal Document Intelligence](https://canrag.ahamsel.com)
+- **[BusBoard NL](https://ahamsel.com/busboard)**: Metrobus transit app on iOS and Android with a live bus map, stop predictions and alerts. 200+ downloads, 100+ monthly active users.
+  `Flutter` `Dart` `GTFS-Realtime` `REST APIs`
+- **[Flitly](https://flitly.ahamsel.com)**: AI browser agent that does tasks in your own browser and asks before it buys, sends or deletes. 40+ installs on the Chrome Web Store and Edge Add-ons.
+  `TypeScript` `Chrome Extensions (MV3)` `Cloudflare Workers`
+- **[Rung](https://play.google.com/store/apps/details?id=com.ahamsel.reminderai)**: AI reminder app on Google Play that turns plain requests into reminders and alarms. 100+ downloads. Its alarm fix is merged upstream: [gdelataillade/alarm#336](https://github.com/gdelataillade/alarm/pull/336).
+  `Flutter` `Dart` `Kotlin` `SQLite` `Firebase`
+- **[Redline](https://redline.ahamsel.com)**: AI research agent over 210 SEC filings with verified citations, and its tools exposed as an MCP server.
+  `Python` `FastAPI` `PostgreSQL` `pgvector` `Gemini` `Terraform` `Cloud Run`
+- **[Canrag](https://canrag.ahamsel.com)**: document Q&A in English or French that links each claim to its source and refuses when there is no evidence.
+  `Python` `FastAPI` `pgvector (Neon)` `Gemini` `Cloud Run`
+- **[Atlas](https://cdc-chat.ahamsel.com)**: multilingual search over the public reports of Morocco's Cour des comptes, with page citations back to each PDF. An independent prototype, not an official product.
+  `Python` `FastAPI` `Next.js` `Firestore` `Gemini` `Cloud Run` `Sentry`
+- **[WebPilot](https://github.com/ahamsel/WebPilot)** (open source): the local-first agentic browser that came before Flitly, connecting LLMs to Playwright MCP, with releases for macOS, Windows and Linux.
+  `TypeScript` `Electron` `Next.js` `Playwright` `MCP` `Ollama`
 
-Built and deployed a public English/French document-intelligence product that preserves text, tables, charts, scans, and source geometry across PDFs and Office files. It combines hybrid pgvector retrieval, Gemini multimodal embeddings, validated claim-level citations, and an in-app evidence viewer on AWS; 473 automated checks cover ingestion, retrieval, citations, language behaviour, and abstention.
+## Experience
 
-`Python` `TypeScript` `FastAPI` `PostgreSQL` `pgvector` `Gemini` `Docling` `AWS` `Terraform`
+**Software Developer (12-month co-op), WSP Canada** · St. John's, NL · May 2024 to May 2025
+Client-facing weather apps in React and C#/.NET, ASP.NET REST APIs and SQL Server.
 
-### [Atlas - Court of Accounts RAG](https://cdc-chat.ahamsel.com)
+## Education
 
-Built and operate a multilingual retrieval-augmented generation system over 228 public reports from Morocco's Court of Accounts. Its production corpus contains 51,584 chunks, with retrieval evaluation, source citations, user feedback, rate limiting, and Sentry monitoring.
-
-`Python` `FastAPI` `PostgreSQL` `pgvector` `BGE embeddings` `Docker` `Sentry`
-
-### [WebPilot](https://github.com/ahamSel/WebPilot)
-
-Open-source, local-first agentic browser that connects LLMs to browser automation through Playwright MCP. It supports local models through Ollama, cloud model providers, persistent sessions, and packaged releases for macOS, Windows, and Linux.
-
-`TypeScript` `Electron` `Next.js` `Playwright` `MCP` `Ollama`
-
-[Repository](https://github.com/ahamSel/WebPilot) | [Latest release](https://github.com/ahamSel/WebPilot/releases/latest)
-
-### [BusBoard NL](https://ahamsel.com/busboard)
-
-Cross-platform transit application for Newfoundland and Labrador, published on both the App Store and Google Play.
-
-`Flutter` `Dart` `Firebase` `REST APIs`
-
-### [ReminderAI](https://play.google.com/store/apps/details?id=com.ahamsel.reminderai)
-
-Natural-language reminder application backed by a custom native Android alarm integration. While developing it, I contributed an Android notification-channel improvement to the open-source Flutter [`alarm`](https://github.com/gdelataillade/alarm) package.
-
-`Flutter` `Kotlin` `Android` `LLM APIs`
-
-[Google Play](https://play.google.com/store/apps/details?id=com.ahamsel.reminderai) | [Merged open-source contribution](https://github.com/gdelataillade/alarm/pull/336)
-
-## Technologies
-
-- **Languages:** Python, TypeScript, JavaScript, Kotlin, Dart, C#, Java, SQL
-- **Application development:** FastAPI, React, Next.js, Electron, Flutter, Android
-- **Data and AI:** PostgreSQL, pgvector, Firebase, Redis, multimodal RAG, hybrid retrieval, retrieval evaluation
-- **Cloud and delivery:** AWS, Terraform, Docker, Vercel, Render, GitHub Actions, Sentry
-- **Agentic development:** Playwright, MCP, Codex, Claude Code
+B.Sc. Computer Science (AI), Memorial University, 2026
 
 ## Contact
 
-[Portfolio](https://ahamsel.com) | [LinkedIn](https://www.linkedin.com/in/aaesselmouni) | [Email](mailto:aaesselmouni@mun.ca)
+[ahamsel.com](https://ahamsel.com) · [LinkedIn](https://www.linkedin.com/in/aaesselmouni) · [aaesselmouni@mun.ca](mailto:aaesselmouni@mun.ca)
